@@ -1,13 +1,16 @@
-html, body {
+html,body{
 	height: 100%;
 }
 
+body{
+	overflow-y: auto;
+}
+
+
 #background-img {
 	background-image: url('../img/sample.jpg');
-	background-position: fill center;
 	background-repeat: no-repeat;
-	background-size: cover;	
-	z-index: 1;
+  background-position: center top;
 }
 
 .overlay {
@@ -22,6 +25,7 @@ html, body {
 .countdown-container {
 	position: relative;
 	height: 80vh;
+	padding: 4em;
 }
 
 .clock-item .inner {
